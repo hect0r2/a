@@ -1,0 +1,125 @@
+/* Estilos básicos basados en una estructura simple de HTML */
+
+/* Quitar márgenes por defecto y usar una fuente clara */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f4f6;
+    color: #111827;
+}
+
+/* Encabezado de la página */
+header {
+    background-color: #111827;
+    color: #f9fafb;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+/* Barra de navegación con botones */
+nav {
+    background-color: #1f2933;
+    text-align: center;
+    padding: 10px 0 14px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+.btn-nav {
+    border: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+    background-color: #2563eb;
+    color: #f9fafb;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.15s ease, transform 0.1s ease;
+}
+
+.btn-nav:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.03);
+}
+
+/* Contenido principal */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 18px;
+    margin-bottom: 6px;
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+ul {
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+
+/* Cuadros para destacar información */
+.box {
+    border-left: 4px solid #2563eb;
+    background-color: #eff6ff;
+    padding: 10px 12px;
+    border-radius: 6px;
+    margin: 12px 0;
+    font-size: 14px;
+}
+
+/* Espacios reservados para imágenes */
+.contenedor-imagen {
+    border: 2px dashed #9ca3af;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+    margin: 15px 0;
+    font-size: 13px;
+    background-color: #f9fafb;
+}
+
+/* Si después agregas imágenes reales */
+.imagen-principal {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #6b7280;
+    margin-bottom: 20px;
+}
